@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back1"
+    android:layout_height="match_parent"
+    tools:context=".LabTestDetailsActivity">
+
+    <TextView
+        android:id="@+id/textViewDDName"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:shadowColor="#000000"
+        android:shadowDx="18"
+        android:shadowRadius="2"
+        android:text="24*7 MUSKETEER "
+        android:textAlignment="textEnd"
+        android:textAllCaps="true"
+        android:textColor="#D8C5BEBE"
+        android:textColorHighlight="#100101"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/textView_logo6"
+        android:layout_width="250dp"
+        android:layout_height="27dp"
+        android:shadowColor="#000000"
+        android:text="Dilver Location :Pune"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="#100101"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDDName"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <ListView
+        android:id="@+id/textViewLDPackageName"
+        android:layout_width="344dp"
+        android:layout_height="59dp"
+        android:shadowColor="#000000"
+        android:text="Lab Test and Packages"
+        android:textAlignment="center"
+        android:textColor="@color/yellowLight"
+        android:textColorHighlight="#100101"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDDName"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <TextView
+        android:id="@+id/editTextLDTextMultiLine"
+        android:layout_width="326dp"
+        android:layout_height="346dp"
+        android:layout_margin="10dp"
+        android:text="Hi \n Hello"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_logo6"
+        app:layout_constraintVertical_bias="0.305" />
+
+    <Button
+        android:id="@+id/buttonLDGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonLDAddToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="ADD TO CART"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewLDTotalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLDTextMultiLine" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
